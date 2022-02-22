@@ -40,4 +40,14 @@ Pro zjednodušení úkolu počítejme, že je muž vždy starší! */
 let muzJmeno;
 let zenaJmeno;
 let rokNarozeniMuz;
-let rokNarozeni;
+let rokNarozeniZena;
+let mesicNarozeniMuz;
+let mesicNarozeniZena;
+
+Rozdil =
+  rokNarozeniMuz * 12 +
+  mesicNarozeniMuz -
+  (rokNarozeniZena * 12 + mesicNarozeniZena);
+console.log(
+  '[muz] a [zena] jsou od sebe vzdaleni' + ' ' + rozdil + ' ' + 'mesicu'
+);
