@@ -12,3 +12,5 @@ let vaha = '56 kg';
 let vyska = '1.77 m ';
 
 BMI = vaha / (vyska * vyska);
+
+console.log('jmenuji se')
