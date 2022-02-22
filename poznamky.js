@@ -30,3 +30,21 @@ let hodinVeDne = 24
 let dnuVLednu = 31
 let vysledek - ***
 console.log('v lednu je celkem' + vysledek + 'minut')
+
+//vstup uzivatele prompt
+
+let jmeno = prompt ("zadejte jmeno")
+let jmeno = prompt("jak se jmenujes");
+console.log("jmenujes se:" + jmeno);
+//vraci text retezec
+//aby bylo cislo
+let cislo = Number("3.24");
+
+let vek = Number(prompt ("kolik je ti let"));
+
+
+let cislo = Number (vstupOdUzivatele);
+
+
+
+
