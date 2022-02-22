@@ -1,1 +1,1 @@
-import './ukol1';
+import './promenne/ukol1';
