@@ -1,5 +1,3 @@
-console.log('neco');
-
 // let [jmenoPromenne]=[hodnota];
 let jirik;
 jirik = 57.6;
@@ -19,3 +17,10 @@ let b = 11;
 
 let soucet = a + b;
 console.log(soucet);
+
+//mocnina ** (2**3)
+
+let prijmeni = 'sss';
+console.log(jmeno + '' + prijemni);
+
+//deleni / % se zbytkem
