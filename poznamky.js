@@ -24,3 +24,9 @@ let prijmeni = 'sss';
 console.log(jmeno + '' + prijemni);
 
 //deleni / % se zbytkem
+
+let minutVHodine = 60
+let hodinVeDne = 24
+let dnuVLednu = 31
+let vysledek - ***
+console.log('v lednu je celkem' + vysledek + 'minut')
