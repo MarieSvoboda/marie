@@ -46,5 +46,19 @@ let vek = Number(prompt ("kolik je ti let"));
 let cislo = Number (vstupOdUzivatele);
 
 
+true, false
+console.log(1===1);   true vypise
+
+// ===rovna se
+//!==nerovna se
+
+//< >, >= <=
+
+
+//logicke operatory
+// a zaroven &&.  obe strany pravda  prsi a zaroven mrzne
+// nebo ||  prsi nebo mrzne
+// Ne ! 
+console.log(prsi&&mrzne)
 
 

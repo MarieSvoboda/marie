@@ -37,6 +37,7 @@ console.log(
 Spočteme rozdíl věku muže a ženy v měsících a vypíšeme ve formátu​ "[muz] a [zena] jsou od sebe věkově vzdáleni [XY] měsíců​"
 Pro zjednodušení úkolu počítejme, že je muž vždy starší! */
 
+/*
 let muzJmeno = "xxx"
 let zenaJmeno = "hhh"
 let rokNarozeniMuz;
@@ -50,4 +51,4 @@ rozdil =
   (rokNarozeniZena * 12 + mesicNarozeniZena);
 console.log(
   muzJmeno 'a' [zena] jsou od sebe vzdaleni' + ' ' + rozdil + ' ' + 'mesicu'
-);
+); */
