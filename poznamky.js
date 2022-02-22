@@ -62,3 +62,19 @@ console.log(1===1);   true vypise
 console.log(prsi&&mrzne)
 
 
+//podminky
+let vek = 18;
+if ( VYRAZ / pravda ci lez) { vykona se pokud je vyraz, podminka pravdivy} 
+else { vykona se pokud vyraz neni pravda}
+
+if (vek>=18)
+{console.log( "vyborne jsi plnolety")} 
+else {console.log('nejsiplnolety')};
+
+
+//()vyraz, matematicka operace, privolani fce
+//[ ]pristup do SVGTextPositioningElement
+//  {}]blok kodu, podminky, cykly, objekty
+
+
+

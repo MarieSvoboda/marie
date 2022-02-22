@@ -52,3 +52,14 @@ rozdil =
 console.log(
   muzJmeno 'a' [zena] jsou od sebe vzdaleni' + ' ' + rozdil + ' ' + 'mesicu'
 ); */
+
+
+/*Přijměte jméno jako vstup od uživatele, dále nechte zadat jeho věk a vypište na základě věku jednu ze dvou vět ve tvaru:
+a) Vaše jméno je Marian, je vám 30 let a tak máte právo řídit auto.
+b) Vaše jméno je Marian, je vám 14 let a tak musíte počkat ještě 4 let, než budete moci řídit auto.*/
+
+let jmeno = prompt("Zadej sve jmeno:")
+let vek = Number (prompt("Zadej svuj vek:"))
+
+if (vek>=18) {console.log("Mate pravo ridit auto")}
+else
