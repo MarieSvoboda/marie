@@ -53,13 +53,54 @@ console.log(
   muzJmeno 'a' [zena] jsou od sebe vzdaleni' + ' ' + rozdil + ' ' + 'mesicu'
 ); */
 
-
 /*Přijměte jméno jako vstup od uživatele, dále nechte zadat jeho věk a vypište na základě věku jednu ze dvou vět ve tvaru:
 a) Vaše jméno je Marian, je vám 30 let a tak máte právo řídit auto.
 b) Vaše jméno je Marian, je vám 14 let a tak musíte počkat ještě 4 let, než budete moci řídit auto.*/
 
-let jmeno = prompt("Zadej sve jmeno:")
-let vek = Number (prompt("Zadej svuj vek:"))
+let jmenoJ = prompt('Zadej sve jmeno:');
+let vekV = Number(prompt('Zadej svuj vek:'));
 
-if (vek>=18) {console.log("Mate pravo ridit auto")}
-else
+if (vekV >= 18) {
+  console.log('Mate pravo ridit auto');
+} else {
+  console.log(
+    'Nemate pravo ridit auto a musite jeste' + (18 - vekV) + 'pockat'
+  );
+}
+// lze resit i pres promennou
+
+if (vekV <= 18) {
+  console.log(
+    `Vase jemno je ${jmenoJ}, je vam ${vekV} a tak jeste musite pockat ${
+      18 - vekV
+    } let, nez budete ridit auto`
+  );
+}
+
+/*Nechte uživatele zadat 3 čísla a určete největší z nich - výsledek vypište do konzole ve formátu
+"Největší číslo je A: 37".*/
+
+//opravit syntaxi:
+
+let a = Number(prompt('zadej cislo A:'));
+let b = Number(prompt('zadej cislo B:'));
+let c = Number(prompt('zadej cislo C:'));
+
+if (a > b) {
+  //porovnavam jeste A a C
+  if (a > c) {
+    console.log('nejvetsi je A:' + a);
+  } else {
+    console.log('nejvetsi je C:' + c);
+  }
+} else {
+  //porovnavam B a C
+  if (b > c) {
+    console.log('nejvetsi je B:' + b);
+  } else {
+    console.log('nejvetsi je C:' + c);
+  }
+}
+
+//funkce
+// let nejvetsi = Math.max (a,b,c)

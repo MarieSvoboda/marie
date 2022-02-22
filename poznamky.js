@@ -76,5 +76,6 @@ else {console.log('nejsiplnolety')};
 //[ ]pristup do SVGTextPositioningElement
 //  {}]blok kodu, podminky, cykly, objekty
 
-
+// dobre znaceni zavorek aby se nemuselo porad ""...nutne pouzit ` $ {} 
+/* console.log(`Vase jemno je ${jmenoJ}, je vam ${vekV} a tak jeste musite pockat ${18-vekV} let, nez budete ridit auto`)*/
 
