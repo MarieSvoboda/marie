@@ -79,3 +79,21 @@ else {console.log('nejsiplnolety')};
 // dobre znaceni zavorek aby se nemuselo porad ""...nutne pouzit ` $ {} 
 /* console.log(`Vase jemno je ${jmenoJ}, je vam ${vekV} a tak jeste musite pockat ${18-vekV} let, nez budete ridit auto`)*/
 
+
+let a = Number(prompt('Zadej číslo A:'));
+let b = Number(prompt('Zadej číslo B:'));
+let c = Number(prompt('Zadej číslo C:'));
+
+if (a > b) {
+  if (a > c) {
+    console.log('Největší číslo je číslo A:' + a);
+  } else {
+    console.log('Největší číslo je číslo C:' + c);
+  }
+} else {
+  if (c < b) {
+    console.log('Největší je číslo B:' + b);
+  } else {
+    console.log('Největší je číslo C:' + c);
+  }
+}
