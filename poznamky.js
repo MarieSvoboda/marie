@@ -28,7 +28,7 @@ console.log(jmeno + '' + prijemni);
 let minutVHodine = 60
 let hodinVeDne = 24
 let dnuVLednu = 31
-let vysledek - ***
+let vysledek = dnuVLednu * hodinVeDne * minutVHodine;
 console.log('v lednu je celkem' + vysledek + 'minut')
 
 //vstup uzivatele prompt
@@ -43,11 +43,11 @@ let cislo = Number("3.24");
 let vek = Number(prompt ("kolik je ti let"));
 
 
-let cislo = Number (vstupOdUzivatele);
+//let cislo = Number (vstupOdUzivatele);
 
 
-true, false
-console.log(1===1);   true vypise
+// true, false
+console.log(1===1);   // true vypise
 
 // ===rovna se
 //!==nerovna se
@@ -59,17 +59,17 @@ console.log(1===1);   true vypise
 // a zaroven &&.  obe strany pravda  prsi a zaroven mrzne
 // nebo ||  prsi nebo mrzne
 // Ne ! 
-console.log(prsi&&mrzne)
+// console.log(prsi&&mrzne)
 
 
 //podminky
 let vek = 18;
-if ( VYRAZ / pravda ci lez) { vykona se pokud je vyraz, podminka pravdivy} 
+/* if ( VYRAZ / pravda ci lez) { vykona se pokud je vyraz, podminka pravdivy} 
 else { vykona se pokud vyraz neni pravda}
 
 if (vek>=18)
 {console.log( "vyborne jsi plnolety")} 
-else {console.log('nejsiplnolety')};
+else {console.log('nejsiplnolety')}; */
 
 
 //()vyraz, matematicka operace, privolani fce
