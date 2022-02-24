@@ -7,11 +7,10 @@ let cislo;
 
 cislo = Number(prompt("zadej cislo"));
 
-while(cislo ===0){
-  conzole.log('prosim zadej cislo odlisne od nuly')
+while (cislo === 0) {
+  conzole.log('prosim zadej cislo odlisne od nuly');
 
-cislo= Number((prompt("zadej cislo");)
-
+  cislo= Number((prompt("zadej cislo"));
 }
 
 console.log("vase cislo je" + cislo);
