@@ -97,6 +97,15 @@ function rozdil(a, b) {
 
 rozdil(4, 5);
 
+/*function mocnina(a){
+
+  console.log("mocnina je" = (a*a));
+}
+let cisloC = Number(prompt("zadej cislo"));
+mocnina (cisloC);
+
+*/
+
 /* Napište funkci, který vypíše informaci, zda zadané číslo je nebo není prvočíslo.
 - prvočíslo - dělitelné pouze 1 a samo sebou - zbytek po dělení: % - modulo
 - v první moment pčedpokládejme, ze číslo JE prvočíslo a budeme případně rozporovat toto tvrzeni.*/
@@ -121,3 +130,19 @@ if (jePrvocislo(cislo)) {
 } else {
   console.log('cislo neni prvocislo');
 }
+
+//POLE:
+
+//Vytvořte staticky pomocí [1, 2, 3, 4543, 4, 34] libovolné pole a najděte v něm nejmenší a největší číslo
+
+let pole = [1, 2, 3, 4543, 4, -34];
+
+let nejmensi = pole[0]; //predpokladam,ye ty male jsou na zacatku
+
+for (let i = 0; i < pole.length; i++) {
+  console.log(pole[i]);
+  if (pole[i] < nejmensi) {
+    nejmensi = pole[i];
+  }
+}
+console.log('nejmensi je' + nejmensi);

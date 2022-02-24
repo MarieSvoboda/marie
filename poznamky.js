@@ -166,5 +166,31 @@ function vratidruhoumocninu(x){
 let vysledek = x * x;
 return vysledek
 }
-
+//atd 
 console.log(vratidruhoumocninu(11));
+
+
+
+
+// POLE: 
+
+let pole = [4, 11, 16];
+
+console.log(pole);
+
+pole.push() //vlozeni noveho prvku do pole
+
+pole.push(1); //pole nyni 4, 11, 16, 1
+
+// pozice v poli:
+pole[index]
+
+console.log("cislo" + pole[index]);
+for (let i = 0; i<3; i++){
+
+  console.log("cislo" + pole[i])
+}
+pole[i]
+
+//delka pole
+pole.length
