@@ -193,4 +193,27 @@ for (let i = 0; i<3; i++){
 pole[i]
 
 //delka pole
-pole.length
+pole.length // delka pole, kolik ma pozic
+
+
+// Objekty / vice osob, veku, adres. vysky vahy... nemam indexi / jmeno 1, jmeno 2, jmeno 3...
+
+let jmeno = "marian"
+let vek = 32
+
+//jak veci stdruzit do sebe
+
+
+let pole = [];
+
+let prvniOsoba = {
+  jmeno: "marian",
+  vek: 31 
+};
+let druhaOSoba = {
+  jmeno:"lucie",
+  vek: 23
+};
+
+console.log(prvniOsoba.jmeno);
+console.log(druhaOsoba.vek);

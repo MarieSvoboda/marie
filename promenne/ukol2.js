@@ -146,3 +146,6 @@ for (let i = 0; i < pole.length; i++) {
   }
 }
 console.log('nejmensi je' + nejmensi);
+
+
+
