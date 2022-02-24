@@ -50,20 +50,33 @@ Pokud tedy zadá 3 a 7, uvažujme čísla 3, 4, 5, 6, 7.*/
 /*Nechte uživatele zadat 2 čísla, které značí dolní a horní mez na číselné ose celých čísel – včetně.
 Pokud tedy zadá 3 a 7, uvažujme čísla 3, 4, 5, 6, 7.*/
 
-let a = Number(prompt('zadej cislo a'));
+/* let a = Number(prompt('zadej cislo a'));
 let b = Number(prompt('zadej cislo b > a'));
 
 for (let i = a; i <= b; i = i + 1) {
   console.log('cislo i je:' + i);
 }
+*/
 
 /*Nechte uživatele zadat horní mez – číslo. Vypište všechny čísla od nuly do této horní meze VČETNĚ, které jsou sudá.
 Vstup: 8 Výstup: 2 4 6 8 */
 
-let horniMez = Number(prompt('zadej horni mez:'));
+/* let horniMez = Number(prompt('zadej horni mez:'));
 
 for (let i = 0; i <= horniMez; i++) {
   if (i % 2 === 0) {
     console.log(i);
   }
+}
+*/
+
+/* Pčepište tento for cyklus pomocí While cyklu
+for (let i = 12, j = 12 ** 3; i < 12 + j; i = i * 2) { console.log(i);*/
+
+let y = 12;
+let j = 12 ** 3;
+
+while (y < 12 + j) {
+  console.log(y);
+  y = y * 2;
 }
