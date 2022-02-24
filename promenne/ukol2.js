@@ -1,39 +1,17 @@
-let a = Number(prompt('zadej cislo A:'));
-let b = Number(prompt('zadej cislo B:'));
-let c = Number(prompt('zadej cislo C:'));
+/*Zadání:
+• Žádej si od uživatele zadávat číslo TAK DLOUHO, dokud ti nezadá číslo odlišné od 0.
+• Pokud ti zadá 0, vypiš mu, že musí zadat číslo odlišné od 0.
+• Po úspěšném zadání čísla, číslo vypiš.*/
 
-if (a > b) {
-  //porovnavam jeste A a C
-  if (a > c) {
-    console.log('nejvetsi je A:' + a);
-    if (b + c > a) {
-      console.log('lze sestrojit');
-    } else {
-      console.log('nelze sestrojit');
-    }
-  } else {
-    console.log('nejvetsi je C:' + c);
-    if (b + a > c) {
-      console.log('lze sestrojit');
-    } else {
-      console.log('nelze sestrojit');
-    }
-  }
-} else {
-  //porovnavam B a C
-  if (b > c) {
-    console.log('nejvetsi je B:' + b);
-    if (a + c > b) {
-      console.log('lze sestrojit');
-    } else {
-      console.log('nelze sestrojit');
-    }
-  } else {
-    console.log('nejvetsi je C:' + c);
-    if (b + a > c) {
-      console.log('lze sestrojit');
-    } else {
-      console.log('nelze sestrojit');
-    }
-  }
+let cislo;
+
+cislo = Number(prompt("zadej cislo"));
+
+while(cislo ===0){
+  conzole.log('prosim zadej cislo odlisne od nuly')
+
+cislo= Number((prompt("zadej cislo");)
+
 }
+
+console.log("vase cislo je" + cislo);
