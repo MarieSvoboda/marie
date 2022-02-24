@@ -206,14 +206,44 @@ let vek = 32
 
 let pole = [];
 
-let prvniOsoba = {
-  jmeno: "marian",
-  vek: 31 
-};
-let druhaOSoba = {
-  jmeno:"lucie",
-  vek: 23
+
+let lannovka = {
+  ulice:"lannova",
+    psc:"22222"
 };
 
+let cestina = {
+  nazev: "cestina", 
+  vyucujici: "borivoj"
+};
+
+let anglictina = {
+  nazev: "anglictina", 
+  vyucujici: "john"
+};
+
+let prvniOsoba = {
+  jmeno: "marian",
+  vek: 31,
+  adresa: {    //adresa: lannovka
+    ulice:"lannova",
+    psc:"22222"
+  },
+  znamky:[1,2,4,5],
+  predmety: [cestina, anglictina]
+};
+
+/*let druhaOSoba = {
+  jmeno:"lucie",
+  vek: 23
+};*///
+
 console.log(prvniOsoba.jmeno);
-console.log(druhaOsoba.vek);
+console.log(prvniOsoba.adresa.psc);
+//console.log(druhaOsoba.vek);
+
+console.log(
+  prvniOsoba //celou osobu
+  .predmety[1]//druhy predmety
+  .vyucujici // vyucujici uvnitr predmetu
+  );ß
