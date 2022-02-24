@@ -97,7 +97,7 @@ if (a > b) {
   }
 }
 
-//DOKUD
+//DOKUD plati podminka
 // while(podminka-dokud palti tento vyraz) {delam xy};
 
 //vypis 5x ahoj
@@ -117,7 +117,24 @@ while (podminka) {
   prikazy;
 }
 
-//while czklus s podminkou na konci
+//while = do while = cyklus s podminkou na konci
 do {
   prikazy;
 } while (podminka); //zda se ma skocit na zacatek a jet znovu
+
+
+// 1 iterace/ kdyz se vykona jeden blok cyklu
+
+FOR cyklus
+
+for(let i=0   ;PODMINKA  i<10  ; i=i+1 ){    
+  console.log(i);
+  // for ( co se ma provest 1x, podminka, co se ma stat na konci kazde iterace)
+  ///odpovida> let i=0  while cyklus (PODMINKA i =10) { ...i=i+1;}
+} //i++ = i+1
+
+
+
+
+
+

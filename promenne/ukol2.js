@@ -24,6 +24,8 @@ Součet: 17
 Vstup: 0
 Finální součet: 17*/
 
+/*
+
 let soucet = 0;
 let cisloC = Number(prompt('zadej cislo'));
 
@@ -38,8 +40,30 @@ while (cisloC !== 0) {
   //if (cisloC===0){break}
 }
 
+*/
+
 /*Rozšiř předešlý úkol tak, že nebude vypisovat pouze součet, ale rozepíše celou rovnici, jak k němu přišel:*/
 
+/*Nechte uživatele zadat 2 čísla, které značí dolní a horní mez na číselné ose celých čísel – včetně.
+Pokud tedy zadá 3 a 7, uvažujme čísla 3, 4, 5, 6, 7.*/
 
+/*Nechte uživatele zadat 2 čísla, které značí dolní a horní mez na číselné ose celých čísel – včetně.
+Pokud tedy zadá 3 a 7, uvažujme čísla 3, 4, 5, 6, 7.*/
 
+let a = Number(prompt('zadej cislo a'));
+let b = Number(prompt('zadej cislo b > a'));
 
+for (let i = a; i <= b; i = i + 1) {
+  console.log('cislo i je:' + i);
+}
+
+/*Nechte uživatele zadat horní mez – číslo. Vypište všechny čísla od nuly do této horní meze VČETNĚ, které jsou sudá.
+Vstup: 8 Výstup: 2 4 6 8 */
+
+let horniMez = Number(prompt('zadej horni mez:'));
+
+for (let i = 0; i <= horniMez; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
