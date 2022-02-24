@@ -73,10 +73,51 @@ for (let i = 0; i <= horniMez; i++) {
 /* Pčepište tento for cyklus pomocí While cyklu
 for (let i = 12, j = 12 ** 3; i < 12 + j; i = i * 2) { console.log(i);*/
 
-let y = 12;
+/* let y = 12;
 let j = 12 ** 3;
 
 while (y < 12 + j) {
   console.log(y);
   y = y * 2;
+}
+
+*/
+
+/* Napište funkci, která vypíše součet, rozdíl, násobek a podíl 2 zadaných čísel, rozdíl zobrazujte jako absolutní hodnotu.*/
+
+function soucet(a, b) {
+  console.log(a + b);
+}
+
+soucet(3, 6);
+
+function rozdil(a, b) {
+  console.log(Math.abs(a - b)); // absolutni hodnota rozdilu
+}
+
+rozdil(4, 5);
+
+/* Napište funkci, který vypíše informaci, zda zadané číslo je nebo není prvočíslo.
+- prvočíslo - dělitelné pouze 1 a samo sebou - zbytek po dělení: % - modulo
+- v první moment pčedpokládejme, ze číslo JE prvočíslo a budeme případně rozporovat toto tvrzeni.*/
+
+function jePrvocislo(cislo) {
+  //predpokladame ze je
+  let jePrvocislo = true;
+
+  for (let i = 2; i < cislo; i++) {
+    //pokud je cislo delitelne I tak neni prvnocislo
+    if (cislo % i == 0) {
+      jePrvocislo = false;
+      break;
+    }
+  }
+  return jePrvocislo;
+}
+
+let cislo = Number(prompt('zadejte cislo'));
+if (jePrvocislo(cislo)) {
+  console.log('cislo je prvocislo');
+} else {
+  console.log('cislo neni prvocislo');
 }

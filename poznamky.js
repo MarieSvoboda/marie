@@ -133,8 +133,38 @@ for(let i=0   ;PODMINKA  i<10  ; i=i+1 ){
   ///odpovida> let i=0  while cyklus (PODMINKA i =10) { ...i=i+1;}
 } //i++ = i+1
 
+// FUNKCE:
+// jmenaFunkci ( argumenty) console.log("ahoj", "pepo");
+let cislo = prompt( "yadej cislo");
+/*
+fce maji jmeno
+ / vstupy parametry
+ vystup  = navratova hodnota
+*/
+
+function pozdrav(j){
+ console.log("ahoj"+ j );
+}
+
+//zde specificke hodnoty j
+let jmeno = "jirinka"
+pozdrav("mariane");
+pozdrav("pepo");
+pozdrav (jmeno);
 
 
+function rekni co je vetsi( prvni, druhy){
+
+  if (prvni>druhy)
+  console.log (1 je vetsi)
+}
 
 
+//vraceni hodnoty:
 
+function vratidruhoumocninu(x){
+let vysledek = x * x;
+return vysledek
+}
+
+console.log(vratidruhoumocninu(11));
