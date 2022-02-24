@@ -111,3 +111,13 @@ while (pocitadlo < 5) {
   //pocitadlo ++
   pocitadlo = pocitadlo + 1;
 } //++
+
+//while podminka na zacatku
+while (podminka) {
+  prikazy;
+}
+
+//while czklus s podminkou na konci
+do {
+  prikazy;
+} while (podminka); //zda se ma skocit na zacatek a jet znovu
